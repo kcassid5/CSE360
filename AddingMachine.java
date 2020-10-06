@@ -11,11 +11,11 @@ public class AddingMachine{
 
 	//public class AddingMachine {
 	private int total;
-	StringBuffer history;
+	StringBuffer calculator;
 
 	public AddingMachine() {
 		total = 0;  // not needed - included for clarity
-		history = new StringBuffer("0");
+		calculator = new StringBuffer("0");
 
 	}
 	//return total value
@@ -25,16 +25,16 @@ public class AddingMachine{
 	//add values
 	public void add (int value) {
 		total = total + value;
-		history.append(" + " + value);
+		calculator.append(" + " + value);
 	}
 	//subtract values
 	public void subtract (int value) {
 		total = total - value;
-		history.append(" - " + value); 
+		calculator.append(" - " + value); 
 	}
 	//return value with string
 	public String toString () {
-		return history.toString();
+		return calculator.toString();
 	}
 	//clear input
 	public void clear() {
