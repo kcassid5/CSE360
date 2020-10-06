@@ -4,7 +4,7 @@ package cse360assignment02;
 //CSE 360
 //Due October 5, 2020
 
-//
+//Github: https://github.com/kcassid5/CSE360.git
 
 
 public class AddingMachine{
